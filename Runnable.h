@@ -26,11 +26,11 @@ private:
  uint16_t* signal;
  virtual uint32_t run();
 public:
- bool runWithDelay(uint32_t delay, uint16_t* signal = NULL) {
+ bool runWithDelay(uint32_t d, uint16_t* s = NULL) {
    if (runnableCount < RUN_TASKS) {
      lastRun  = 0;
-     delay    = delay;
-     signal   = signal;
+     delay    = d;
+     signal   = s;
      runnableTasks[runnableCount] = this;
      runnableCount++;
      return true;
