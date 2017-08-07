@@ -1,0 +1,27 @@
+{
+  "name": "Runnable",
+  "keywords": "Arduino, Multitask",
+  "description": "Arduino simple cooperative miltitask library",
+  "authors":
+  [
+        {
+            "name": "Alexander Emelianov",
+            "email": "a.m.emelianov@gmail.com",
+            "url": "http://733666.ru",
+            "maintainer": true
+        }
+   ],
+  "repository":
+  {
+    "type": "git",
+    "url": "git@github.com:emelianov/Runnable.git"
+  },
+  "frameworks": "arduino",
+  "platforms":
+  [
+    "atmelavr",
+    "atmelsam",
+    "espressif",
+    "teensy"
+  ]
+}
