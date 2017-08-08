@@ -24,7 +24,7 @@ private:
  uint32_t lastRun;
  uint32_t delay;
  uint16_t* signal;
- virtual uint32_t run();
+ virtual uint32_t run() { };
 public:
  bool runWithDelay(uint32_t d, uint16_t* s = NULL) {
    if (runnableCount < RUN_TASKS) {
@@ -51,6 +51,9 @@ public:
     }
   }
   return false;
+ }
+ bool runWithoutSemaphore() {
+   signal = NULL;
  }
  bool isRunning() {
   for (uint8_t i = 0; i < runnableCount; i++) {
