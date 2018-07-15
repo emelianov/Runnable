@@ -6,25 +6,25 @@
 # Datatypes (KEYWORD1)
 #######################################
 
-Runnable			KEYWORD1
+Runnable	KEYWORD1
 
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
 
-runWithSemaphore		KEYWORD2
-runWithDelay			KEYWORD2
-runNow				KEYWORD2
-stopNow				KEYWORD2
-runnableExec			KEYWORD2
-isRunning			KEYWORD2
-remainder			KEYWORD2
+runWithSemaphore	KEYWORD2
+runWithDelay	KEYWORD2
+runNow	KEYWORD2
+stopNow	KEYWORD2
+runnableExec	KEYWORD2
+isRunning	KEYWORD2
+remainder	KEYWORD2
 
 #######################################
 # Constants (LITERAL1)
 #######################################
 
-RUN_TASKS			LITERAL1
-RUN_NEVER			LITERAL1
-RUN_DELETE			LITERAL1
-RUN_NOW				LITERAL1
+RUN_TASKS	LITERAL1
+RUN_NEVER	LITERAL1
+RUN_DELETE	LITERAL1
+RUN_NOW	LITERAL1
